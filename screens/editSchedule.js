@@ -1,14 +1,18 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native"
+import AppTitle from "../components/appTitle";
 
 export default class EditSchedule extends React.Component {
     render() {
         return (
             <View style = {styles.container}>
-                <Text>
-                   Editar Cronograma
-                </Text>
-            </View>
+            <AppTitle titleText ={"Cronogramas Criados"} />
+            <View style = {styles.lowerContainer}>
+            <Text>
+                Editar Cronograma
+            </Text>
+            </View>           
+        </View>
         )
     }
 }
@@ -16,8 +20,11 @@ export default class EditSchedule extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "RGB(159,221,227)",
+        backgroundColor: "#9fdde3",
+    },
+    lowerContainer: {
+        flex: 0.8,
+        justifyContent: "center",
         alignItems: "center",
-        justifyContent: "center"
     },
 })

@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 5
     },
     titleText: {
-        fontSize: 50
+        fontSize: 50,
+        fontFamily: "kanit",
     }
 })

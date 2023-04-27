@@ -1086,6 +1086,11 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
+"@expo-google-fonts/kanit@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/kanit/-/kanit-0.2.3.tgz#f79bfbac28cb20b567cc2500765a52d2b1ed330d"
+  integrity sha512-FP+OwNCXcbEVWCO49yQyjz1q86uBxgwBGiU8jxUXD+eQjvLv/y0ajBboCy6UdKOyVRQ9v1PRC8a3JglOgk467Q==
+
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmjs.org/@expo/bunyan/-/bunyan-4.0.0.tgz"
