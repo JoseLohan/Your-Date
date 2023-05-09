@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text } from "react-native"
+import { View, StyleSheet, Text, TouchableOpacity } from "react-native"
 import AppTitle from "../components/appTitle";
 
 export default class Login extends React.Component {
@@ -11,6 +11,14 @@ export default class Login extends React.Component {
                  <Text>
                      Log In
                  </Text>
+                 <TouchableOpacity
+                        style={styles.container}
+                        onPress={() => this.props.navigation.navigate("Cronogramas")}
+                    >
+                        <Text>
+                            Voltar
+                        </Text>
+                    </TouchableOpacity>
              </View>
          </View>
         )
